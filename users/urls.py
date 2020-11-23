@@ -8,9 +8,9 @@ router = routers.DefaultRouter()
 # router.register('Users',views.UserView)
 
 urlpatterns = [
-    path('users/getUsers',getUser),
-    path('users/addUsers',addUser),
-    path('users/getUserById/<id>',getUserById),
-    path('users/updateUser/<id>',updateUser),
-    path('users/deleteUser/<id>',deleteUser)
+    path('getUsers',getUser),
+    path('addUsers',addUser),
+    path('getUserById/<id>',getUserById),
+    path('updateUser/<id>',updateUser),
+    path('deleteUser/<id>',deleteUser)
 ]

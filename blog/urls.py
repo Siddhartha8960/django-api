@@ -8,9 +8,6 @@ router = routers.DefaultRouter()
 
 
 urlpatterns = [
-    path('blog/getBlog',getBlog),
-    path('blog/addBlog',addBlog),
-    # path('users/getUserById/<id>',getUserById),
-    # path('users/updateUser/<id>',updateUser),
-    # path('users/deleteUser/<id>',deleteUser)
+    path('getBlog',getBlog),
+    path('addBlog',addBlog),
 ]
